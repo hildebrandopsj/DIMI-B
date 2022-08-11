@@ -4,7 +4,7 @@
   <settings ppi="96">
     <identity>
       <id>bff34a6a-c467-4a7b-b188-c5691ec2c6a3</id>
-      <revision>13</revision>
+      <revision>15</revision>
     </identity>
     <metadata lang="cpp">
       <title>DIMensIonamento de Blocos sobre estacas</title>
@@ -4127,13 +4127,6 @@
           </content>
         </title>
       </area>
-      <region left="81" top="15129" width="254" height="23" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" fontFamily="Arial" fontSize="10">
-          <content>
-            <p>- Posicione o pilar no centro da tela (0,0)</p>
-          </content>
-        </text>
-      </region>
       <region left="81" top="15156" width="412" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" width="412" fontFamily="Arial" fontSize="10">
           <content>
@@ -4155,13 +4148,6 @@
           </content>
         </text>
       </region>
-      <region left="81" top="15237" width="479" height="23" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" fontFamily="Arial" fontSize="10">
-          <content>
-            <p>- O centro de cargas deve ser coincidente com o baricentro do estaqueamento</p>
-          </content>
-        </text>
-      </region>
       <region top="15282" color="#000000">
         <area terminator="true" />
       </region>
@@ -4174,13 +4160,6 @@
           </content>
         </title>
       </area>
-      <region left="81" top="15336" width="602" height="38" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" fontFamily="Arial" fontSize="10">
-          <content>
-            <p>- O programa não emitirá avisos caso o baricentro do pilar não esteja alinhado com o baricentro do estaqueamento</p>
-          </content>
-        </text>
-      </region>
       <region left="81" top="15381" width="315" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
@@ -4241,7 +4220,7 @@
           </result>
         </math>
       </region>
-      <region left="36" top="15777" width="414" height="24" color="#000000" fontSize="10">
+      <region left="36" top="15777" width="270" height="24" color="#000000" fontSize="10">
         <math decimalPlaces="4">
           <description active="true" position="Top" lang="eng">
             <content>
@@ -4250,11 +4229,11 @@
           </description>
           <input>
             <e type="operand">Status</e>
-            <e type="operand" style="string">Em desenvolvimento</e>
+            <e type="operand" style="string">Protótipo</e>
             <e type="operator" args="2">:</e>
           </input>
           <result action="numeric">
-            <e type="operand" style="string">Em desenvolvimento</e>
+            <e type="operand" style="string">Protótipo</e>
           </result>
         </math>
       </region>
