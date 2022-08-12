@@ -1,5 +1,5 @@
-# DIMI-B
-Programa para DIMensIonamento de Blocos sobre estacas
+# DIMI-B (DIMensIonamento de Blocos sobre estacas)
+Programa para dimensIonamento de blocos sobre estacas
 
 Protótipo de aplicação desenvolvido no software Smath Studio, posteriormente será portado para a linguagem Pascal. Portanto, trata-se de um simples MVP (Minimum Viable Product)
 
