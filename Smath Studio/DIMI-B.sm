@@ -4,7 +4,7 @@
   <settings ppi="96">
     <identity>
       <id>bff34a6a-c467-4a7b-b188-c5691ec2c6a3</id>
-      <revision>15</revision>
+      <revision>20</revision>
     </identity>
     <metadata lang="cpp">
       <title>DIMensIonamento de Blocos sobre estacas</title>
@@ -4130,29 +4130,71 @@
       <region left="81" top="15156" width="412" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" width="412" fontFamily="Arial" fontSize="10">
           <content>
-            <p>- Posicione as estacas na tela no sentido horário ou anti-horário</p>
+            <p>- Defina as dimensões do pilar</p>
           </content>
         </text>
       </region>
       <region left="81" top="15183" width="547" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" width="547" fontFamily="Arial" fontSize="10">
           <content>
-            <p>- Posicione as áreas do pilar na mesma ordem que inseriu as estacas</p>
+            <p>- Defina as dimensões da estaca</p>
           </content>
         </text>
       </region>
-      <region left="81" top="15210" width="437" height="23" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" width="437" fontFamily="Arial" fontSize="10">
+      <region left="81" top="15210" width="485" height="23" color="#000000" fontSize="10" isBreakable="false">
+        <text lang="cpp" width="485" fontFamily="Arial" fontSize="10">
           <content>
-            <p>- Ajuste as estacas ou pilar clicando duas vezes no elemento</p>
+            <p>- Defina as divisões do pilar, baseado no número de bielas de compressão</p>
           </content>
         </text>
       </region>
-      <region top="15282" color="#000000">
+      <region left="81" top="15237" width="548" height="23" color="#000000" fontSize="10" isBreakable="false">
+        <text lang="cpp" width="548" fontFamily="Arial" fontSize="10">
+          <content>
+            <p>- Delete o exemplo existente (Basta clicar sobre o elemento e pressionar DEL)</p>
+          </content>
+        </text>
+      </region>
+      <region left="81" top="15264" width="629" height="23" color="#000000" fontSize="10" isBreakable="false">
+        <text lang="cpp" width="629" fontFamily="Arial" fontSize="10">
+          <content>
+            <p>- Insira o pilar clicando sobre o primeiro ícone à direita e arrastando o elemento para a área gráfica</p>
+          </content>
+        </text>
+      </region>
+      <region left="81" top="15291" width="548" height="23" color="#000000" fontSize="10" isBreakable="false">
+        <text lang="cpp" width="548" fontFamily="Arial" fontSize="10">
+          <content>
+            <p>- Para definir a posição exata, clique duas vezes sobre o elemento</p>
+          </content>
+        </text>
+      </region>
+      <region left="81" top="15318" width="548" height="23" color="#000000" fontSize="10" isBreakable="false">
+        <text lang="cpp" width="548" fontFamily="Arial" fontSize="10">
+          <content>
+            <p>- Insira as estacas (Basta clicar sobre a estaca e arrastar para a área gráfica)</p>
+          </content>
+        </text>
+      </region>
+      <region left="81" top="15345" width="570" height="23" color="#000000" fontSize="10">
+        <text lang="cpp" fontFamily="Arial" fontSize="10">
+          <content>
+            <p>- Insira as áreas de divisão do pilar (Basta clicar sobre a estaca e arrastar para a área gráfica)</p>
+          </content>
+        </text>
+      </region>
+      <region left="81" top="15408" width="732" height="23" color="#000000" fontSize="10">
+        <text lang="cpp" width="732" fontFamily="Arial" fontSize="10">
+          <content>
+            <p style="font-weight: bold;">- Obs.: As áreas de divisão do pilar devem ser colocadas na mesma ordem em que as estacas foram inseridas</p>
+          </content>
+        </text>
+      </region>
+      <region top="15606" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="15309" color="#000000">
+    <region top="15633" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
@@ -4160,18 +4202,18 @@
           </content>
         </title>
       </area>
-      <region left="81" top="15381" width="315" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="81" top="15705" width="315" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p>- As armaduras são decompostas apenas em x e y</p>
           </content>
         </text>
       </region>
-      <region top="15426" color="#000000">
+      <region top="15750" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="15633" color="#000000">
+    <region top="15957" color="#000000">
       <area single="true" collapsed="true">
         <title lang="cpp">
           <content>
@@ -4180,7 +4222,7 @@
         </title>
       </area>
     </region>
-    <region top="15660" color="#000000">
+    <region top="15984" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
@@ -4188,7 +4230,7 @@
           </content>
         </title>
       </area>
-      <region left="36" top="15687" width="293" height="26" color="#000000" fontSize="10" showInputData="false">
+      <region left="36" top="16011" width="293" height="26" color="#000000" fontSize="10" showInputData="false">
         <hyperlink dl="mailto:engenharia@pereirasantos.eng.br" flags="" sd="true" width="283" height="18">
           <description active="true" position="Right" lang="eng">
             <content>
@@ -4200,7 +4242,7 @@
           </input>
         </hyperlink>
       </region>
-      <region left="36" top="15723" width="189" height="27" color="#000000" fontSize="10">
+      <region left="36" top="16047" width="189" height="27" color="#000000" fontSize="10">
         <math exponentialThreshold="7">
           <description active="true" position="Top" lang="eng" width="145">
             <content>
@@ -4209,18 +4251,18 @@
           </description>
           <input>
             <e type="operand">ver</e>
-            <e type="operand" style="string">0.100</e>
+            <e type="operand" style="string">0.101</e>
             <e type="operator" args="2">:</e>
             <e type="operand">1</e>
             <e type="operand">1</e>
             <e type="function" args="3">line</e>
           </input>
           <result action="numeric">
-            <e type="operand" style="string">0.100</e>
+            <e type="operand" style="string">0.101</e>
           </result>
         </math>
       </region>
-      <region left="36" top="15777" width="270" height="24" color="#000000" fontSize="10">
+      <region left="36" top="16101" width="270" height="24" color="#000000" fontSize="10">
         <math decimalPlaces="4">
           <description active="true" position="Top" lang="eng">
             <content>
@@ -4237,7 +4279,7 @@
           </result>
         </math>
       </region>
-      <region left="36" top="15831" width="249" height="26" color="#000000" fontSize="10">
+      <region left="36" top="16155" width="249" height="26" color="#000000" fontSize="10">
         <math exponentialThreshold="7">
           <description active="true" position="Top" lang="eng">
             <content>
@@ -4253,42 +4295,35 @@
           </result>
         </math>
       </region>
-      <region top="15885" color="#000000">
+      <region top="16209" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="15903" color="#000000">
+    <region top="16227" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
-            <p>LICENÇA DE USO (CC BY-SA 4.0)</p>
+            <p>LICENÇA DE USO MIT</p>
           </content>
         </title>
       </area>
-      <region left="9" top="15930" width="285" height="23" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" fontFamily="Arial" fontSize="10">
-          <content>
-            <p>Atribuição-Compartilha Igual 4.0 Internacional</p>
-          </content>
-        </text>
-      </region>
-      <region left="9" top="15957" width="508" height="26" color="#000000" fontSize="10" showInputData="false">
-        <hyperlink dl="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR" flags="" sd="true" width="498" height="18">
+      <region left="9" top="16281" width="516" height="26" color="#000000" fontSize="10" showInputData="false">
+        <hyperlink dl="https://github.com/hildebrandopsj/DIMI-B/blob/main/LICENSE" flags="" sd="true" width="506" height="18">
           <description active="true" position="Right" lang="eng">
             <content>
-              <p>CC BY-SA 4.0</p>
+              <p>Licença MIT</p>
             </content>
           </description>
           <input>
-            <e type="operand" style="string">https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR</e>
+            <e type="operand" style="string">https://github.com/hildebrandopsj/DIMI-B/blob/main/LICENSE</e>
           </input>
         </hyperlink>
       </region>
-      <region top="15984" color="#000000">
+      <region top="16308" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="16002" color="#000000">
+    <region top="16326" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
@@ -4296,7 +4331,7 @@
           </content>
         </title>
       </area>
-      <region left="27" top="16020" width="98" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16344" width="98" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-weight: normal;">
@@ -4305,39 +4340,32 @@
           </content>
         </text>
       </region>
-      <region left="27" top="16038" width="403" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16362" width="403" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="text-decoration: none; font-style: normal; font-weight: normal;">— Copiar e redistribuir o material em qualquer suporte ou formato</p>
           </content>
         </text>
       </region>
-      <region left="27" top="16056" width="64" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16380" width="64" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-weight: normal;">Adaptar:</p>
           </content>
         </text>
       </region>
-      <region left="27" top="16074" width="565" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16398" width="565" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-style: normal; font-weight: normal;">— Remixar, transformar, e criar a partir do material para qualquer fim, mesmo que comercial.</p>
           </content>
         </text>
       </region>
-      <region left="27" top="16101" width="560" height="23" color="#000000" fontSize="10" isBreakable="false">
-        <text lang="cpp" fontFamily="Arial" fontSize="10">
-          <content>
-            <p style="font-weight: normal;">O licenciante não pode revogar estes direitos desde que você respeite os termos da licença.</p>
-          </content>
-        </text>
-      </region>
-      <region top="16128" color="#000000">
+      <region top="16452" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="16155" color="#000000">
+    <region top="16479" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
@@ -4345,39 +4373,39 @@
           </content>
         </title>
       </area>
-      <region left="27" top="16173" width="77" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16497" width="77" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-weight: normal;">Atribuição </p>
           </content>
         </text>
       </region>
-      <region left="27" top="16191" width="727" height="38" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16515" width="727" height="38" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-style: normal;">— Você deve dar o crédito apropriado, prover um link para a licença e indicar se mudanças foram feitas. Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso.</p>
           </content>
         </text>
       </region>
-      <region left="27" top="16236" width="122" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16560" width="122" height="23" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-weight: normal;">Compartilha Igual:</p>
           </content>
         </text>
       </region>
-      <region left="27" top="16254" width="691" height="38" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16578" width="691" height="38" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p style="font-style: normal;">— Se você remixar, transformar, ou criar a partir do material, tem de distribuir as suas contribuições sob a mesma licença que o original. </p>
           </content>
         </text>
       </region>
-      <region top="16290" color="#000000">
+      <region top="16614" color="#000000">
         <area terminator="true" />
       </region>
     </region>
-    <region top="16317" color="#000000">
+    <region top="16641" color="#000000">
       <area collapsed="false">
         <title lang="cpp">
           <content>
@@ -4385,14 +4413,14 @@
           </content>
         </title>
       </area>
-      <region left="27" top="16335" width="714" height="38" color="#000000" fontSize="10" isBreakable="false">
+      <region left="27" top="16659" width="714" height="38" color="#000000" fontSize="10" isBreakable="false">
         <text lang="cpp" fontFamily="Arial" fontSize="10">
           <content>
             <p>Este script deve ser utilizado com cuidado, o autor não assume responsabilidade por qualquer dano resultante de seu uso ou mau uso.</p>
           </content>
         </text>
       </region>
-      <region top="16371" color="#000000">
+      <region top="16695" color="#000000">
         <area terminator="true" />
       </region>
     </region>
